@@ -1,0 +1,579 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Prabeen Dutta — Senior DevOps Engineer &amp; Site Reliability Engineer</title>
+<meta name="description" content="Prabeen Dutta — Senior DevOps Engineer specializing in AWS, Kubernetes, Terraform, and Site Reliability Engineering. 5+ years building resilient, automated cloud platforms." />
+<meta name="theme-color" content="#08090b" />
+
+<!-- Open Graph -->
+<meta property="og:title" content="Prabeen Dutta — Senior DevOps Engineer & SRE" />
+<meta property="og:description" content="Building scalable, secure, and highly available cloud platforms across AWS, Azure, and GCP." />
+<meta property="og:type" content="website" />
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2222%22 fill=%22%2308090b%22/><text x=%2250%22 y=%2266%22 font-size=%2252%22 font-family=%22monospace%22 fill=%22%234f8cff%22 text-anchor=%22middle%22>P</text></svg>" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<!-- Skip link for accessibility -->
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- Ambient background -->
+<div class="bg-grid" aria-hidden="true"></div>
+<div class="bg-glow" aria-hidden="true"></div>
+
+<!-- ================= NAV ================= -->
+<header class="nav" id="nav">
+  <div class="nav-inner container">
+    <a href="#top" class="nav-logo">
+      <span class="logo-mark">PD</span>
+      <span class="logo-status" aria-hidden="true"></span>
+    </a>
+
+    <nav class="nav-links" id="nav-links" aria-label="Primary">
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#experience" class="nav-link">Experience</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#certifications" class="nav-link">Certifications</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+      <a href="assets/resume/Prabeen_Dutta_Resume.pdf" class="btn btn-ghost" download>
+        <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14"/></svg>
+        Resume
+      </a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ================= HERO ================= -->
+  <section class="hero" id="top">
+    <div class="container hero-inner">
+
+      <div class="status-pill reveal" data-reveal>
+        <span class="dot dot-live" aria-hidden="true"></span>
+        <span class="mono">all_systems_operational</span>
+        <span class="status-pill-divider" aria-hidden="true">·</span>
+        <span class="mono status-uptime">uptime 99.9%+</span>
+      </div>
+
+      <h1 class="hero-title reveal" data-reveal data-reveal-delay="1">
+        Prabeen Dutta
+      </h1>
+
+      <p class="hero-role reveal" data-reveal data-reveal-delay="2">
+        <span class="role-typer" id="role-typer" aria-live="polite"></span><span class="caret" aria-hidden="true"></span>
+      </p>
+
+      <p class="hero-tagline reveal" data-reveal data-reveal-delay="3">
+        Building scalable, secure, and highly available cloud platforms across
+        <strong>AWS</strong>, <strong>Azure</strong>, and <strong>Google Cloud</strong> — with 5+ years designing
+        the infrastructure other engineers build on top of.
+      </p>
+
+      <div class="hero-ctas reveal" data-reveal data-reveal-delay="4">
+        <a href="assets/resume/Prabeen_Dutta_Resume.pdf" class="btn btn-primary" download>
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14"/></svg>
+          Download Résumé
+        </a>
+        <a href="https://www.linkedin.com/in/prabeen-dutta-39957a137" target="_blank" rel="noopener noreferrer" class="btn btn-ghost">
+          LinkedIn
+        </a>
+        <a href="https://github.com/Prabeendutta" target="_blank" rel="noopener noreferrer" class="btn btn-ghost">
+          GitHub
+        </a>
+        <a href="#contact" class="btn btn-ghost">
+          Contact Me
+        </a>
+      </div>
+
+      <!-- Signature: live infra status bar -->
+      <div class="metrics-bar reveal" data-reveal data-reveal-delay="5">
+        <div class="metric">
+          <span class="metric-dot" aria-hidden="true"></span>
+          <span class="metric-value mono">99.9<span class="metric-unit">%+</span></span>
+          <span class="metric-label">Application Availability</span>
+        </div>
+        <div class="metric-sep" aria-hidden="true"></div>
+        <div class="metric">
+          <span class="metric-dot" aria-hidden="true"></span>
+          <span class="metric-value mono">90<span class="metric-unit">%</span></span>
+          <span class="metric-label">Provisioning Effort Cut</span>
+        </div>
+        <div class="metric-sep" aria-hidden="true"></div>
+        <div class="metric">
+          <span class="metric-dot" aria-hidden="true"></span>
+          <span class="metric-value mono">250<span class="metric-unit">+</span></span>
+          <span class="metric-label">Incidents Resolved</span>
+        </div>
+        <div class="metric-sep" aria-hidden="true"></div>
+        <div class="metric">
+          <span class="metric-dot" aria-hidden="true"></span>
+          <span class="metric-value mono">5<span class="metric-unit">+ yrs</span></span>
+          <span class="metric-label">Cloud &amp; Platform Engineering</span>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="scroll-cue" aria-hidden="true"><span></span></div>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section class="section" id="about">
+    <div class="container">
+      <p class="eyebrow reveal" data-reveal><span class="mono">01</span> About</p>
+      <h2 class="section-title reveal" data-reveal>
+        I design the platforms<br />other engineers ship on.
+      </h2>
+
+      <div class="about-grid">
+        <div class="about-copy reveal" data-reveal>
+          <p>
+            I'm a Senior DevOps Engineer with over 5 years of experience designing, automating, and operating
+            enterprise-scale cloud infrastructure across AWS, Microsoft Azure, and Google Cloud Platform.
+          </p>
+          <p>
+            My expertise spans Kubernetes platform engineering, Infrastructure as Code, Site Reliability Engineering,
+            CI/CD automation, cloud security, and DevSecOps practices. Throughout my career I've focused on improving
+            reliability, automation, and operational excellence while supporting business-critical applications.
+          </p>
+          <p>
+            I'm passionate about building resilient systems, enabling engineering teams through platform automation,
+            and continuously improving operational efficiency.
+          </p>
+        </div>
+
+        <ul class="about-achievements reveal" data-reveal data-reveal-delay="1">
+          <li>
+            <svg class="ach-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+            Maintaining 99.9%+ application availability
+          </li>
+          <li>
+            <svg class="ach-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+            Reducing infrastructure provisioning effort by up to 90%
+          </li>
+          <li>
+            <svg class="ach-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+            Improving deployment reliability by 30%
+          </li>
+          <li>
+            <svg class="ach-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+            Accelerating delivery through automation-first engineering
+          </li>
+          <li>
+            <svg class="ach-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+            Supporting enterprise-scale cloud-native platforms
+          </li>
+        </ul>
+      </div>
+
+      <!-- Current focus tags -->
+      <div class="focus-block reveal" data-reveal data-reveal-delay="2">
+        <p class="focus-label mono">// currently focused on</p>
+        <div class="tag-row">
+          <span class="tag">Platform Engineering</span>
+          <span class="tag">Kubernetes at Scale</span>
+          <span class="tag">Site Reliability Engineering</span>
+          <span class="tag">GitOps Adoption</span>
+          <span class="tag">Cloud Security</span>
+          <span class="tag">DevSecOps</span>
+          <span class="tag">Infrastructure Automation</span>
+          <span class="tag">Cost Optimization</span>
+          <span class="tag">Observability Engineering</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SKILLS ================= -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <p class="eyebrow reveal" data-reveal><span class="mono">02</span> Technical Expertise</p>
+      <h2 class="section-title reveal" data-reveal>Service registry</h2>
+      <p class="section-sub reveal" data-reveal>The stack I run in production, grouped the way I actually reach for it.</p>
+
+      <div class="skills-grid" id="skills-grid">
+        <!-- populated with skill cards below -->
+
+        <div class="skill-card reveal" data-reveal>
+          <div class="skill-card-head">
+            <span class="dot dot-live" aria-hidden="true"></span>
+            <h3>Cloud Platforms</h3>
+          </div>
+          <div class="pill-row">
+            <span class="pill">AWS</span><span class="pill">Microsoft Azure</span><span class="pill">Google Cloud (GCP)</span>
+            <span class="pill">EKS</span><span class="pill">ECS</span><span class="pill">EC2</span><span class="pill">Lambda</span>
+            <span class="pill">S3</span><span class="pill">VPC</span><span class="pill">IAM</span><span class="pill">Route53</span>
+            <span class="pill">CloudWatch</span><span class="pill">ECR</span><span class="pill">RDS</span>
+            <span class="pill">CloudFormation</span><span class="pill">Secrets Manager</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal" data-reveal>
+          <div class="skill-card-head">
+            <span class="dot dot-live" aria-hidden="true"></span>
+            <h3>Containers &amp; Kubernetes</h3>
+          </div>
+          <div class="pill-row">
+            <span class="pill">Kubernetes</span><span class="pill">Docker</span><span class="pill">Helm</span>
+            <span class="pill">Kustomize</span><span class="pill">Karpenter</span><span class="pill">Ingress Controllers</span>
+            <span class="pill">Istio Service Mesh</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal" data-reveal>
+          <div class="skill-card-head">
+            <span class="dot dot-live" aria-hidden="true"></span>
+            <h3>Infrastructure as Code</h3>
+          </div>
+          <div class="pill-row">
+            <span class="pill">Terraform</span><span class="pill">CloudFormation</span><span class="pill">Ansible</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal" data-reveal>
+          <div class="skill-card-head">
+            <span class="dot dot-live" aria-hidden="true"></span>
+            <h3>CI/CD &amp; GitOps</h3>
+          </div>
+          <div class="pill-row">
+            <span class="pill">Jenkins</span><span class="pill">GitHub Actions</span><span class="pill">GitLab CI/CD</span>
+            <span class="pill">ArgoCD</span><span class="pill">GitOps</span><span class="pill">Blue-Green Deploys</span>
+            <span class="pill">Canary Deploys</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal" data-reveal>
+          <div class="skill-card-head">
+            <span class="dot dot-live" aria-hidden="true"></span>
+            <h3>Monitoring &amp; Observability</h3>
+          </div>
+          <div class="pill-row">
+            <span class="pill">Prometheus</span><span class="pill">Grafana</span><span class="pill">ELK Stack</span>
+            <span class="pill">OpenTelemetry</span><span class="pill">Datadog</span><span class="pill">New Relic</span>
+            <span class="pill">PagerDuty</span><span class="pill">Opsgenie</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal" data-reveal>
+          <div class="skill-card-head">
+            <span class="dot dot-live" aria-hidden="true"></span>
+            <h3>Programming &amp; Automation</h3>
+          </div>
+          <div class="pill-row">
+            <span class="pill">Python</span><span class="pill">Bash</span><span class="pill">PowerShell</span>
+            <span class="pill">Groovy</span><span class="pill">YAML</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal" data-reveal>
+          <div class="skill-card-head">
+            <span class="dot dot-live" aria-hidden="true"></span>
+            <h3>Reliability Engineering</h3>
+          </div>
+          <div class="pill-row">
+            <span class="pill">SLI / SLO / SLA</span><span class="pill">Error Budgets</span><span class="pill">Capacity Planning</span>
+            <span class="pill">Incident Management</span><span class="pill">Root Cause Analysis</span><span class="pill">High Availability</span>
+            <span class="pill">FinOps</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= EXPERIENCE ================= -->
+  <section class="section" id="experience">
+    <div class="container">
+      <p class="eyebrow reveal" data-reveal><span class="mono">03</span> Professional Experience</p>
+      <h2 class="section-title reveal" data-reveal>Deployment log</h2>
+      <p class="section-sub reveal" data-reveal>Every role, in order — like a commit history for a career.</p>
+
+      <div class="timeline">
+
+        <article class="tl-item reveal" data-reveal>
+          <div class="tl-marker"><span class="dot dot-live" aria-hidden="true"></span></div>
+          <div class="tl-content">
+            <div class="tl-head">
+              <div>
+                <h3 class="tl-role">Senior DevOps Engineer</h3>
+                <p class="tl-company">GlobalLogic <span class="tl-loc">· Pune, Maharashtra, India</span></p>
+              </div>
+              <span class="tl-date mono">Jul 2025 — Present</span>
+            </div>
+            <ul class="tl-highlights">
+              <li>Operating cloud-native infrastructure supporting 15+ microservices on AWS EKS</li>
+              <li>Maintaining 99.9%+ platform availability</li>
+              <li>Standardized infrastructure provisioning through Terraform and Ansible</li>
+              <li>Implemented GitOps delivery using ArgoCD</li>
+              <li>Defined and operationalized SLI/SLO frameworks</li>
+              <li>Improved platform observability using Prometheus and Grafana</li>
+              <li>Partnering with engineering teams to improve scalability and reliability</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="tl-item reveal" data-reveal>
+          <div class="tl-marker"><span class="dot" aria-hidden="true"></span></div>
+          <div class="tl-content">
+            <div class="tl-head">
+              <div>
+                <h3 class="tl-role">DevOps Consultant</h3>
+                <p class="tl-company">Capgemini <span class="tl-loc">· Pune, Maharashtra, India</span></p>
+              </div>
+              <span class="tl-date mono">Sep 2024 — Jul 2025</span>
+            </div>
+            <ul class="tl-highlights">
+              <li>Provisioned AWS infrastructure using Terraform, reducing manual provisioning effort by 90%</li>
+              <li>Modernized CI/CD pipelines using Jenkins and GitLab CI/CD, increasing deployment frequency by 50%</li>
+              <li>Designed an ELK-based centralized logging platform processing ~1TB logs/day</li>
+              <li>Supported enterprise systems with 99.9% uptime</li>
+              <li>Improved monitoring through Prometheus and Grafana</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="tl-item reveal" data-reveal>
+          <div class="tl-marker"><span class="dot" aria-hidden="true"></span></div>
+          <div class="tl-content">
+            <div class="tl-head">
+              <div>
+                <h3 class="tl-role">DevOps Engineer</h3>
+                <p class="tl-company">Accenture Solutions Pvt. Ltd. <span class="tl-loc">· Pune, Maharashtra, India</span></p>
+              </div>
+              <span class="tl-date mono">Jul 2021 — Sep 2024</span>
+            </div>
+            <ul class="tl-highlights">
+              <li>Supported enterprise cloud environments across AWS, Azure, and GCP</li>
+              <li>Implemented Kubernetes and Docker-based deployment platforms</li>
+              <li>Reduced deployment times by 50%</li>
+              <li>Automated infrastructure management using Ansible</li>
+              <li>Resolved 250+ infrastructure and DevOps incidents</li>
+              <li>Mentored engineers on Kubernetes and cloud technologies, improving MTTR by 25%</li>
+            </ul>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PROJECTS ================= -->
+  <section class="section section-alt" id="projects">
+    <div class="container">
+      <p class="eyebrow reveal" data-reveal><span class="mono">04</span> Featured Projects</p>
+      <h2 class="section-title reveal" data-reveal>Shipped &amp; running</h2>
+
+      <div class="projects-grid">
+
+        <article class="project-card reveal" data-reveal>
+          <div class="project-card-top">
+            <span class="dot dot-live" aria-hidden="true"></span>
+            <span class="mono project-tag">platform</span>
+          </div>
+          <h3>Cloud-Native Kubernetes Platform</h3>
+          <p class="project-block-label mono">challenge</p>
+          <p>Build a scalable and resilient application platform capable of supporting modern cloud-native workloads.</p>
+          <p class="project-block-label mono">solution</p>
+          <ul>
+            <li>Designed and deployed AWS EKS infrastructure</li>
+            <li>Implemented Helm-based deployment automation</li>
+            <li>Introduced Istio service mesh</li>
+            <li>Standardized deployment practices</li>
+          </ul>
+          <p class="project-block-label mono">outcome</p>
+          <p>50% faster deployments, improved consistency, and higher platform resilience.</p>
+        </article>
+
+        <article class="project-card reveal" data-reveal>
+          <div class="project-card-top">
+            <span class="dot dot-live" aria-hidden="true"></span>
+            <span class="mono project-tag">gitops</span>
+          </div>
+          <h3>Enterprise GitOps Platform</h3>
+          <p class="project-block-label mono">stack</p>
+          <div class="pill-row pill-row-tight">
+            <span class="pill">ArgoCD</span><span class="pill">Kubernetes</span><span class="pill">GitHub</span><span class="pill">Terraform</span>
+          </div>
+          <p class="project-block-label mono">highlights</p>
+          <ul>
+            <li>GitOps-driven application deployment</li>
+            <li>Environment consistency across clusters</li>
+            <li>Automated configuration management</li>
+            <li>Reduced deployment risk through declarative operations</li>
+          </ul>
+        </article>
+
+        <article class="project-card reveal" data-reveal>
+          <div class="project-card-top">
+            <span class="dot dot-live" aria-hidden="true"></span>
+            <span class="mono project-tag">observability</span>
+          </div>
+          <h3>Observability &amp; Monitoring Platform</h3>
+          <p class="project-block-label mono">stack</p>
+          <div class="pill-row pill-row-tight">
+            <span class="pill">Prometheus</span><span class="pill">Grafana</span><span class="pill">ELK</span><span class="pill">OpenTelemetry</span>
+          </div>
+          <p class="project-block-label mono">highlights</p>
+          <ul>
+            <li>Real-time infrastructure monitoring</li>
+            <li>Centralized logging architecture</li>
+            <li>Alerting and incident response workflows</li>
+            <li>Improved operational visibility</li>
+          </ul>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CERTIFICATIONS ================= -->
+  <section class="section" id="certifications">
+    <div class="container">
+      <p class="eyebrow reveal" data-reveal><span class="mono">05</span> Certifications</p>
+      <h2 class="section-title reveal" data-reveal>Verified credentials</h2>
+
+      <div class="badge-grid">
+        <div class="badge-card reveal" data-reveal>
+          <span class="badge-org mono">AWS</span>
+          <h4>Certified Solutions Architect — Associate</h4>
+        </div>
+        <div class="badge-card reveal" data-reveal>
+          <span class="badge-org mono">AWS</span>
+          <h4>Certified SysOps Administrator — Associate</h4>
+        </div>
+        <div class="badge-card reveal" data-reveal>
+          <span class="badge-org mono">AWS</span>
+          <h4>Certified Data Analytics — Specialty</h4>
+        </div>
+        <div class="badge-card reveal" data-reveal>
+          <span class="badge-org mono">Microsoft</span>
+          <h4>Azure Security Technologies (AZ-500)</h4>
+        </div>
+        <div class="badge-card reveal" data-reveal>
+          <span class="badge-org mono">HashiCorp</span>
+          <h4>Terraform Associate</h4>
+        </div>
+        <div class="badge-card reveal" data-reveal>
+          <span class="badge-org mono">Accenture</span>
+          <h4>Certified Automation Practitioner</h4>
+        </div>
+      </div>
+
+      <!-- Recognition -->
+      <div class="recognition reveal" data-reveal>
+        <p class="focus-label mono">// professional recognition</p>
+        <div class="recog-grid">
+          <div class="recog-item">
+            <strong>Spot Award</strong>
+            <span>GlobalLogic</span>
+          </div>
+          <div class="recog-item">
+            <strong>Eminence Award</strong>
+            <span>GlobalLogic</span>
+          </div>
+          <div class="recog-item">
+            <strong>ACE Award</strong>
+            <span>Accenture</span>
+          </div>
+          <div class="recog-item">
+            <strong>Extra Milestone Award</strong>
+            <span>Accenture</span>
+          </div>
+        </div>
+        <p class="recog-note">Recognized four times by clients for outstanding contributions to AWS cloud automation and reliability engineering.</p>
+      </div>
+
+      <!-- Education -->
+      <div class="education reveal" data-reveal>
+        <p class="focus-label mono">// education</p>
+        <div class="edu-grid">
+          <div class="edu-item">
+            <h4>Master of Science, Computer Science</h4>
+            <p>Woolf University × Scaler Neovarsity</p>
+            <span class="mono">2023 — 2025</span>
+          </div>
+          <div class="edu-item">
+            <h4>Bachelor of Technology, Computer Science</h4>
+            <p>Rungta College of Engineering and Technology</p>
+            <span class="mono">2017 — 2021</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section class="section section-contact" id="contact">
+    <div class="container">
+      <p class="eyebrow reveal" data-reveal><span class="mono">06</span> Contact</p>
+      <h2 class="section-title reveal" data-reveal>Let's build reliable<br />platforms together.</h2>
+      <p class="section-sub reveal" data-reveal>
+        Open to Senior DevOps Engineer roles, Platform Engineering positions, SRE opportunities,
+        cloud architecture consulting, and DevSecOps initiatives.
+      </p>
+
+      <div class="contact-grid reveal" data-reveal>
+        <a class="contact-card" href="mailto:prabeendutta@gmail.com">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z"/><path d="M4 6l8 7 8-7"/></svg>
+          <span>prabeendutta@gmail.com</span>
+        </a>
+        <a class="contact-card" href="tel:+918085121555">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.12.9.34 1.79.65 2.65a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.43-1.27a2 2 0 012.11-.45c.86.31 1.75.53 2.65.65A2 2 0 0122 16.92z"/></svg>
+          <span>+91 8085121555</span>
+        </a>
+        <a class="contact-card" href="https://www.linkedin.com/in/prabeen-dutta-39957a137" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          <span>LinkedIn</span>
+        </a>
+        <a class="contact-card" href="https://github.com/Prabeendutta" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 00-1.3-3.2 4.2 4.2 0 00-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 00-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 00-.1 3.2A4.6 4.6 0 004 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg>
+          <span>GitHub</span>
+        </a>
+        <a class="contact-card" href="https://projtrunks.xyz" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 010 20 15.3 15.3 0 010-20z"/></svg>
+          <span>projtrunks.xyz</span>
+        </a>
+        <div class="contact-card contact-card-static">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span>Pune, Maharashtra, India</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <p class="mono footer-status">
+      <span class="dot dot-live" aria-hidden="true"></span> status: open_to_opportunities
+    </p>
+    <p class="footer-copy">© <span id="year"></span> Prabeen Dutta. Built with plain HTML, CSS &amp; JS — no framework overhead.</p>
+    <div class="footer-links">
+      <a href="https://www.linkedin.com/in/prabeen-dutta-39957a137" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="https://github.com/Prabeendutta" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="mailto:prabeendutta@gmail.com">Email</a>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
